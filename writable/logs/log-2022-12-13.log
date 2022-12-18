@@ -1,0 +1,99 @@
+CRITICAL - 2022-12-13 21:42:16 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:42:26 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:21 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:22 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:23 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:23 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:23 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:23 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:24 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:45:24 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+CRITICAL - 2022-12-13 21:47:23 --> Undefined property: App\Controllers\Products::$load
+in APPPATH\Controllers\Products.php on line 11.
+ 1 APPPATH\Controllers\Products.php(11): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Products::$load', 'APPPATH\\Controllers\\Products.php', 11)
+ 2 APPPATH\Controllers\Products.php(19): App\Controllers\Products->header()
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Products->index()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Products))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')

@@ -1,0 +1,4 @@
+nama: muhammad ifantara putra
+nim : 172410102037
+pada projek kali ini, saya menjelaskan usecase memasukkan jadwal ujian
+untuk implementasi service nya, saya menggunakan contoh service jadwal_ujian

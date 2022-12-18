@@ -1,0 +1,132 @@
+ERROR - 2022-12-17 19:32:30 --> mysqli_sql_exception: Table 'cobadb.jadwal' doesn't exist in D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xammp\htdocs\restapi\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xammp\htdocs\restapi\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp\htdocs\restapi\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xammp\htdocs\restapi\app\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xammp\htdocs\restapi\system\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+#8 D:\xammp\htdocs\restapi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#9 D:\xammp\htdocs\restapi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xammp\htdocs\restapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xammp\htdocs\restapi\system\Commands\Server\rewrite.php(46): require_once('D:\\xammp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-17 19:32:30 --> Table 'cobadb.jadwal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `jadwal`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jadwal`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jadwal`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jadwal`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 19:32:40 --> mysqli_sql_exception: Table 'cobadb.jadwal' doesn't exist in D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xammp\htdocs\restapi\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xammp\htdocs\restapi\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp\htdocs\restapi\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xammp\htdocs\restapi\app\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xammp\htdocs\restapi\system\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+#8 D:\xammp\htdocs\restapi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#9 D:\xammp\htdocs\restapi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xammp\htdocs\restapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xammp\htdocs\restapi\system\Commands\Server\rewrite.php(46): require_once('D:\\xammp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-17 19:32:40 --> Table 'cobadb.jadwal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `jadwal`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jadwal`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jadwal`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jadwal`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 19:32:53 --> mysqli_sql_exception: Table 'cobadb.jadwal' doesn't exist in D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xammp\htdocs\restapi\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xammp\htdocs\restapi\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp\htdocs\restapi\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xammp\htdocs\restapi\app\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xammp\htdocs\restapi\system\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+#8 D:\xammp\htdocs\restapi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#9 D:\xammp\htdocs\restapi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xammp\htdocs\restapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xammp\htdocs\restapi\system\Commands\Server\rewrite.php(46): require_once('D:\\xammp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-17 19:32:53 --> Table 'cobadb.jadwal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `jadwal`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jadwal`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jadwal`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jadwal`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
+ERROR - 2022-12-17 19:33:02 --> mysqli_sql_exception: Table 'cobadb.jadwal' doesn't exist in D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 D:\xammp\htdocs\restapi\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *\nFROM `...', 0)
+#1 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 D:\xammp\htdocs\restapi\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 D:\xammp\htdocs\restapi\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 D:\xammp\htdocs\restapi\system\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+#5 D:\xammp\htdocs\restapi\system\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+#6 D:\xammp\htdocs\restapi\app\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+#7 D:\xammp\htdocs\restapi\system\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+#8 D:\xammp\htdocs\restapi\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+#9 D:\xammp\htdocs\restapi\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#10 D:\xammp\htdocs\restapi\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#11 D:\xammp\htdocs\restapi\system\Commands\Server\rewrite.php(46): require_once('D:\\xammp\\htdocs...')
+#12 {main}
+CRITICAL - 2022-12-17 19:33:02 --> Table 'cobadb.jadwal' doesn't exist
+in SYSTEMPATH\Database\MySQLi\Connection.php on line 292.
+ 1 SYSTEMPATH\Database\MySQLi\Connection.php(292): mysqli->query('SELECT *
+FROM `jadwal`', 0)
+ 2 SYSTEMPATH\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *
+FROM `jadwal`')
+ 3 SYSTEMPATH\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *
+FROM `jadwal`')
+ 4 SYSTEMPATH\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT *
+FROM `jadwal`', [], false)
+ 5 SYSTEMPATH\Model.php(223): CodeIgniter\Database\BaseBuilder->get()
+ 6 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 7 APPPATH\Controllers\Jadwal.php(18): CodeIgniter\BaseModel->findAll()
+ 8 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Jadwal->index()
+ 9 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Jadwal))
+10 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+11 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+12 SYSTEMPATH\Commands\Server\rewrite.php(46): require_once('FCPATH\\index.php')
